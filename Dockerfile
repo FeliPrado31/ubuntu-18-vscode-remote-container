@@ -21,17 +21,22 @@ RUN apt-get update \
     && apt-get clean
 
 RUN pip install -U "setuptools==3.4.1"
-RUN pip install -U "pip==1.5.4"
+RUN pip install -U "pip"
 RUN pip install -U "MySQL-python"
 RUN pip install -U "psutil"
-RUN pip install -U "pip install --upgrade pip"
-RUN pip install -U "pip install --upgrade incremental"
-RUN pip install -U "pip install Twisted"
+RUN pip install -U "Twisted"
+RUN pip install -U "DBUtils"
 
 EXPOSE 11801
 EXPOSE 12801
 EXPOSE 13801
 EXPOSE 14801
+EXPOSE 44440
+EXPOSE 44444
+EXPOSE 5555
+EXPOSE 3724
+EXPOSE 6112
+EXPOSE 443
 
 CMD []
 ENTRYPOINT ["/bin/bash"]
