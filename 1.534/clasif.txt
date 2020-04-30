@@ -1,0 +1,13 @@
+Puntos // Rango 
+0 => Noob
+50 => Aprendiz
+100 => Full
+150 => Crack
+200 => Master
+250 => Great master
+
+Season I => 11 enero hasta 11 marzo
+
+Si entras de 01 recibirás +3 puntos, si entras 02 o 03 perderás -2 puntos.
+
+Los puntos de clasificatoria los podrás ver en el perfil de cada jugador. Si quieres ver el ranking ingresa en https://cheesetf.com/clasificatoria

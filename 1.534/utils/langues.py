@@ -1,0 +1,36 @@
+class Langues:
+	@staticmethod
+	def getLangues():
+		return [
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES", 
+			"ES"
+		]
