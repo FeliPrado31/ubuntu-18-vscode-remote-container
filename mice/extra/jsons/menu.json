@@ -1,0 +1,221 @@
+{
+	"texts": {
+        "RO": {
+			"fullMenu": {
+		    	"title": "<font size='13' color='#FFD991'><p align='center'>Yeni Men\xC3\xBC Sistemi</p></font>\n",
+                "main": "<p align='left'><font weight='130' size='13'><N>Merhaba, <J>%1<N>.\nMiceboom'un yeni menü sistemine ho\xC5\x9Fgeldin! Buradan <V>coins<N>, <V>first<N>, <V>save<N> sat\xC4\xB1n alabilir, sunucunun mevcut <V>komutlar\xC4\xB1n\xC4\xB1<N> g\xC3\xB6rüntüleyebilir, envanter e\xC5\x9Fyas\xC4\xB1 sat\xC4\xB1n alabilir ve <V>Miceboom<N> uygulamas\xC4\xB1n\xC4\xB1 indirebilirsin.\n\n<J>Bir sonraki menüde ne yapmak istediðinizi se\xC3\xA7in.\n<N><VP>Herhangi bir sorunuz varsa lütfen ekibimizle ileti\xC5\x9Fime ge\xC3\xA7in.",
+                "inicio": "<a href='event:fullMenu:open'><font size='13' color='#FFD991'>Ana Sayfa</font></a>",
+				"lojinha": "<a href='event:shop:open'><font size='13'><N>Market</N></font></a>",
+				"ranking": "<a href='event:ranking:firsts'><font size='13'><N>Ranking</N></font></a>",
+				"equipe": "<a href='event:equipe:krcs'><font size='13'><N>Ekip</N></font></a>",
+				"roleta": "<a href='event:roleta:open'><font size='13'><N>Uygulama</N></font></a>",
+				"consumiveis": "<a href='event:consumablesShop:open'><font size='13'><N>Envanter</N></font></a>",
+				"cor": "<a href='event:changeColor'><font size='13'><N>Renk</N></font></a>",
+				"comandos": "<a href='event:komutlar'><font size='13'><N>Komutlar</N></font></a>"
+            },
+			
+            "shop": {
+				"title": "<font size='13' color='#FFD991'><p align='center'>Market</p></font>\n",
+                "main": "<font size='13'><J><p align='left'><N>Merhaba, <ROSE>%1<N>. Toplamda <J>%2 <N>coins'e sahipsin.\n<N>Sat\xC4\xB1n almak istedi\xC4\x9Fin \xC5\x9Feyi a\xC5\x9Fa\xC4\x9F\xC4\xB1dan se\xC3\xA7ebilirsin.\n\nNe sat\xC4\xB1n almak istersin <ROSE>%1<VP>?\n<N>»<J> <a href='event:shop:changeTab-2-1'>Birinci olarak toplanan peynir sat\xC4\xB1n al</a>\n<N>»<J> <a href='event:shop:changeTab-9-1'>Toplan\xC4\xB1lan peynir sat\xC4\xB1n al</a>\n<N>»<J> <a href='event:shop:changeTab-3-1'>Bootcamp sat\xC4\xB1n al</a>\n<N>»<J> <a href='event:shop:changeTab-4-1'>Save sat\xC4\xB1n al <i>(Normal Mod)</i></a>\n<N>»<J> <a href='event:shop:changeTab-5-1'>Save sat\xC4\xB1n al <i>(Zor Mod)</i></a>\n<N>»<J> <a href='event:shop:changeTab-6-1'>Save sat\xC4\xB1n al <i>(Kutsal Mod)</i></a>",
+                "header": "<p align='left'><font size='13'><N>Merhaba, <ROSE>%1<N>. Toplamda <J>%2 <N>coins'e sahipsin.\n\n<N>A\xC5\x9Fa\xC4\x9F\xC4\xB1daki listeden coins ile sat\xC4\xB1n almak i\xC3\xA7in bir \xC5\x9Fey se\xC3\xA7:\n",
+                "coins": "coins",
+                "confirmBuy": "\n\n<N><p align='center'><J>%1 <N>almak i\xC3\xA7in <J>%2 <N>coins \xC3\xB6demek istedi\xC4\x9Finizden emin misiniz?\n\n<V><b><a href='event:shop:confirmBuyItem-%3-%4'>Evet</a></b> - <R><b><a href='event:shop:changeTab-%5-%6'>Hay\xC4\xB1r</a></b></p>",
+                "buyErrorNoCoins": "\n\n<N><p align='center'><J>%1</J> almak i\xC3\xA7in yeterli coins'e sahip de\xC4\x9Filsiniz.\n\n<V><b><a href='event:shop:changeTab-%2-%3'>OK</a></b>",
+                "buySucess": "\n\n<N><p align='center'><J>%1 <N>ba\xC5\x9Far\xC4\xB1yla sat\xC4\xB1n al\xC4\xB1nd\xC4\xB1.\n\n<V><b><a href='event:shop:changeTab-%2-%3'>OK</a></b>",
+                "items": {
+					"firsts": {
+                        "1": "200 First",
+                        "2": "400 First",
+                        "3": "600 First",
+                        "4": "800 First",
+                        "5": "1000 First"
+                    },
+					
+					"bootcamps": {
+                        "1": "200 Bootcamp",
+                        "2": "400 Bootcamp",
+                        "3": "600 Bootcamp",
+                        "4": "800 Bootcamp",
+                        "5": "1000 Bootcamp"
+                    },
+					
+                    "savesnormal": {
+						"1": "200 Save (Normal Mod)",
+						"2": "400 Save (Normal Mod)",
+						"3": "600 Save (Normal Mod)",
+						"4": "800 Save (Normal Mod)",
+						"5": "1000 Save (Normal Mod)"
+                    },
+					
+					"savesdificil": {
+						"1": "200 Save (Zor Mod)",
+						"2": "400 Save (Zor Mod)",
+						"3": "600 Save (Zor Mod)",
+						"4": "800 Save (Zor Mod)",
+						"5": "1000 Save (Zor Mod)"
+                    },
+					
+					"savesdivino": {
+						"1": "200 Save (Kutsal Mod)",
+						"2": "400 Save (Kutsal Mod)",
+						"3": "600 Save (Kutsal Mod)",
+						"4": "800 Save (Kutsal Mod)",
+						"5": "1000 Save (Kutsal Mod)"
+                    },
+                    
+                    "vip": {
+                        "1": "<font size='13'><N>\xe2\x80\xa2 <CH>Kullan\xC4\xB1c\xC4\xB1</CH>\n\xe2\x80\xa2 Coins: <VP>%1</VP></N>\n\xe2\x80\xa2 Rozet: <VP>%2</VP></N>\n\xe2\x80\xa2 First: <VP>%3</VP></N>\n\xe2\x80\xa2 Peynir: <VP>%4</VP></N>\n\xe2\x80\xa2 Save: <VP>%5</VP> / <J>%6</J> / <ROSE>%7</ROSE></N></font>"
+                    },
+                    
+                    "fichas": {
+                        "1": "<font size='13'><N>\xe2\x80\xa2 <CH>Moderat\xC3\xB6r</CH>\n\xe2\x80\xa2 Coins: <VP>%1</VP></N>\n\xe2\x80\xa2 Rozet: <VP>%2</VP></N>\n\xe2\x80\xa2 First: <VP>%3</VP></N>\n\xe2\x80\xa2 Peynir: <VP>%4</VP></N>\n\xe2\x80\xa2 Save: <VP>%5</VP> / <J>%6</J> / <ROSE>%7</ROSE></N></font>",
+                        "2": "<font size='13'><N>\xe2\x80\xa2 <CH>S\xC3\xBCper Moderat\xC3\xB6r</CH>\n\xe2\x80\xa2 Coins: <VP>%1</VP></N>\n\xe2\x80\xa2 Rozet: <VP>%2</VP></N>\n\xe2\x80\xa2 First: <VP>%3</VP></N>\n\xe2\x80\xa2 Peynir: <VP>%4</VP></N>\n\xe2\x80\xa2 Save: <VP>%5</VP> / <J>%6</J> / <ROSE>%7</ROSE></N></font>",
+                        "3": "<font size='13'><N>\xe2\x80\xa2 <CH>Koordinat\xC3\xB6r</CH>\n\xe2\x80\xa2 Coins: <VP>%1</VP></N>\n\xe2\x80\xa2 Rozet: <VP>%2</VP></N>\n\xe2\x80\xa2 First: <VP>%3</VP></N>\n\xe2\x80\xa2 Peynir: <VP>%4</VP></N>\n\xe2\x80\xa2 Save: <VP>%5</VP> / <J>%6</J> / <ROSE>%7</ROSE></N></font>",
+                        "4": "<font size='13'><N>\xe2\x80\xa2 <CH>Admin</CH>\n\xe2\x80\xa2 Coins: <VP>%1</VP></N>\n\xe2\x80\xa2 Rozet: <VP>%2</VP></N>\n\xe2\x80\xa2 First: <VP>%3</VP></N>\n\xe2\x80\xa2 Peynir: <VP>%4</VP></N>\n\xe2\x80\xa2 Save: <VP>%5</VP> / <J>%6</J> / <ROSE>%7</ROSE></N></font>",
+                        "5": "<font size='13'><N>\xe2\x80\xa2 <CH>Kurucu</CH>\n\xe2\x80\xa2 Coins: <VP>%1</VP></N>\n\xe2\x80\xa2 Rozet: <VP>%2</VP></N>\n\xe2\x80\xa2 First: <VP>%3</VP></N>\n\xe2\x80\xa2 Peynir: <VP>%4</VP></N>\n\xe2\x80\xa2 Save: <VP>%5</VP> / <J>%6</J> / <ROSE>%7</ROSE></N></font>"
+                    },
+					
+					"coletados": {
+                        "1": "200 Toplan\xC4\xB1lan Peynir",
+                        "2": "400 Toplan\xC4\xB1lan Peynir",
+                        "3": "600 Toplan\xC4\xB1lan Peynir",
+                        "4": "800 Toplan\xC4\xB1lan Peynir",
+                        "5": "1000 Toplan\xC4\xB1lan Peynir"
+                    },
+
+                }
+            },
+        
+            "roleta": {
+				"title": "<font size='13' color='#FFD991'><p align='center'>Miceboom Windows Uygulamas\xC4\xB1!</p></font>\n",
+                "main": "<font size='13'><N>Merhaba, <ROSE>%1<N>.\nMiceboom'u art\xC4\xB1k sadece taray\xC4\xB1c\xC4\xB1lar \xC3\xBCzerinden oynamak zorunda de\xC4\x9Filsiniz! Miceboom i\xC3\xA7in \xC3\xB6zel bir windows uygulamas\xC4\xB1 geli\xC5\x9Ftirdik. Bu sayede oyunu rahat\xC3\xA7a ve h\xC4\xB1zl\xC4\xB1ca oynayabilirsiniz. Daha fazla bilgi i\xC3\xA7in <J><a target='_blank' href='http://miceboom.com/2017/11/18/miceboom-windows-uygulamasi/'>buraya</a></J> t\xC4\xB1klay\xC4\xB1n."
+            },
+			
+			"equipe": {
+				"title": "<font size='13' color='#FFD991'><p align='center'>Miceboom Yetkili Listesi</p></font>\n",
+                "main": "<p align='left'><font size='13'><N>Merhaba, <ROSE>%1<N>. Yetkili \xC3\xBCyelerimizin listesine buradan ula\xC5\x9Fabilirsin.\n\n<N><a href='event:equipe:krcs'>» <font color='#FE8446'>Kurucular</font></a>\n<N><a href='event:equipe:admins'>» <ROSE>Adminler</a>\n<N><a href='event:equipe:coords'>» <VI>Koordinat\xC3\xB6rler</a>\n<N><a href='event:equipe:smods'>» <J>S\xC3\xBCper Moderat\xC3\xB6rler</a>\n<N><a href='event:equipe:mods'>» <N>Moderat\xC3\xB6rler</a>\n<N><a href='event:equipe:mapcrews'>» <N><font color='#FFCC99'>Harita Ekibi(MapCrew)</font></a>"
+            },
+			
+            "ranking": {
+				"title": "<font size='13' color='#FFD991'><p align='center'>En \xC4\xB0yi Oyuncular</p></font>\n",
+				"main": "<font size='13'><J><p align='left'><N>Merhaba, <ROSE>%1<N>.\n<N>A\xC5\x9Fa\xC4\x9F\xC4\xB1dan herhangi bir kategoriyi se\xC3\xA7.\n\n<N>»<J> <a href='event:ranking:firsts'>First</a>\n<N>»<J> <a href='event:ranking:coletados'>Peynir</a>\n<N>»<J> <a href='event:ranking:saves'>Save</a>\n<N>»<J> <a href='event:ranking:bootcamps'>Bootcamp</a>"
+            },
+            
+            "consumablesShop": {
+				"title": "<font size='13' color='#FFD991'><p align='center'>Envanter \xC4\xB0temleri</p></font>\n",
+                "endBuy": "<p align='center'><a href='event:consumablesShop:endBuy'><N>Bitir</a></p>",
+                "buyMessage": "<p align='center'>Merhaba, <ROSE>%1<N>.<J>%2 <N>peynir ve <R>%3 <N>\xC3\xA7ile\xC4\x9Fe sahipsin.\n\nToplamda <CH>%4 <N>envanter e\xC5\x9Fyas\xC4\xB1 almak \xC3\xBCzeresin.\n\n\xC3\xB6deme methodunu se\xC3\xA7in:</p>",
+                "cancelBuy": "<p align='center'><a href='event:consumablesShop:cancelBuy'>Vazge\xC3\xA7</a></p>",
+                "buySucess": "<p align='center'><CH>%1 <N>envanter itemi almak i\xC3\xA7in %2%3 <N>%4 \xC3\xB6dedin.</p>",
+                "cheeses": "peynir",
+                "fraises": "\xC3\xA7ilek",
+                "returnToHome": "<p align='center'><a href='event:consumablesShop:backToHome'>Ana sayfaya geri d\xC3\xB6n</a></p>"
+            }
+		},
+	},
+    
+    "shop": {
+        "firsts": {
+            "1": 200,
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000
+        },
+        
+        "bootcamps": {
+            "1": 200,
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000
+        },
+		
+		"savesnormal": {
+            "1": 200,
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000
+        },
+		
+		"savesdificil": {
+            "1": 200,
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000
+        },
+		
+		"savesdivino": {
+            "1": 200,
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000
+        },
+        
+		"vip": {
+            "1": 5000,
+			"2": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0
+        },
+		
+        "fichas": {
+            "1": 50,
+            "2": 100,
+            "3": 150,
+            "4": 200,
+            "5": 300
+        },
+		
+		"coletados": {
+            "1": 200,
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000
+        }
+    },
+	
+	"consumables": {
+        "0": [0, 6, 3],
+        "1": [1, 8, 4],
+        "2": [2, 6, 3],
+        "3": [3, 6, 3],
+        "4": [4, 4, 2],
+        "5": [2262, 8, 4],
+        "6": [7, 8, 4],
+        "7": [8, 8, 4],
+        "8": [10, 4, 2],
+        "9": [11, 8, 4],
+        "10": [14, 4, 2],
+        "11": [15, 4, 2],
+        "12": [16, 6, 3],
+        "13": [20, 8, 4],
+        "14": [21, 9, 5],
+        "15": [24, 8, 4],
+        "16": [25, 8, 4],
+        "17": [26, 8, 4],
+        "18": [28, 8, 4],
+        "19": [29, 9, 9],
+        "20": [30, 9, 9],
+        "21": [31, 9, 9],
+        "22": [33, 8, 4],
+        "23": [34, 9, 9],
+        "24": [35, 8, 4],
+        "25": [2232, 9, 9],
+        "26": [2234, 9, 9],
+		"27": [2239, 10, 5],
+        "28": [2240, 9, 9],
+        "29": [2241, 9, 9],
+		"30": [2246, 9, 9],
+		"31": [2247, 9, 9],
+		"32": [2250, 8, 4],
+		"33": [2252, 10, 5],
+		"34": [2255, 8, 4],
+		"35": [2259, 8, 4]
+    }
+}
