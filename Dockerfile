@@ -2,7 +2,7 @@
 # https://github.com/crosbymichael/python-docker/blob/master/Dockerfile
 FROM ubuntu:18.04
 
-COPY 1.534 /home/minitf
+COPY mice /home/minitf
 RUN apt-get update \
     && apt-get upgrade -y \
     && apt-get install -y \

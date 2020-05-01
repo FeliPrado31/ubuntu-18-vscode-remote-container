@@ -1,0 +1,33 @@
+﻿
+============================================================
+- Time: 01/05/2020 - 16:12:46
+- Player: 
+- Error: 
+Traceback (most recent call last):
+  File ".\Core.py", line 312, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Holberton\Documents\Containers\ubuntu-18-vscode-remote-container\1.534\modules\ParsePackets.py", line 380, in parsePacket
+    this.client.langueByte = packet.readByte()
+AttributeError: 'str' object has no attribute 'readByte'
+
+============================================================
+- Time: 01/05/2020 - 16:12:46
+- Player: 
+- Error: 
+Traceback (most recent call last):
+  File ".\Core.py", line 312, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Holberton\Documents\Containers\ubuntu-18-vscode-remote-container\1.534\modules\ParsePackets.py", line 724, in parsePacket
+    this.client.realLangue = packet.readUTF().upper()
+AttributeError: 'str' object has no attribute 'readUTF'
+
+============================================================
+- Time: 01/05/2020 - 16:12:58
+- Player: 
+- Error: 
+Traceback (most recent call last):
+  File ".\Core.py", line 312, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Holberton\Documents\Containers\ubuntu-18-vscode-remote-container\1.534\modules\ParsePackets.py", line 541, in parsePacket
+    playerName, password, email, captcha, url = this.client.TFMUtils.parsePlayerName(packet.readUTF()), packet.readUTF(), packet.readUTF(), packet.readUTF()
+AttributeError: 'str' object has no attribute 'readUTF'
